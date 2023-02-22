@@ -1,0 +1,13 @@
+let os = require('os');
+console.log('OS Architecture' , os.arch());
+console.log('OS Endianness' , os.endianness());
+console.log('OS Free Memory' , os.freemem());
+console.log('OS Host Name' , os.hostname());
+console.log('OS Network Interface' , os.networkInterfaces());
+console.log('OS Platform' , os.platform());
+console.log('OS Release' , os.release());
+console.log('OS Temporary File Directory' , os.tmpdir());
+console.log('OS Total Memory' , os.totalmem());
+console.log('OS Type' , os.type());
+console.log('OS Uptime' , os.uptime());
+console.log('OS User Info' , os.userInfo());
